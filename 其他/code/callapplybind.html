@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function People(name, age) {
+            this.name = name;
+            this.age = age;
+            this.say = function (cao, cao2) {
+                console.log("大家好" + cao + cao2)
+            }
+        }
+        var xiaohong = new People("小红", 3)
+        xiaohong.say("曹丹");
+        let xiaolin = { name: "小林", age: 5 };
+        /*
+            区别：
+            call直接传参
+            apply放在数组里面传参        
+            bind直接传参，bind绑定不立即执行，调用时才会执行
+        */
+        xiaohong.say.call(xiaolin, "aaa","bbb");
+        xiaohong.say.apply(xiaolin,[ "aaa","bbb"]);
+        let aaa = xiaohong.say.bind(xiaolin,"aaa","bbb");
+        aaa();
+    </script>
+</body>
+
+</html>
