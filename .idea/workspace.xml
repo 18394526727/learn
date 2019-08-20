@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bf44b96-36e6-4e81-b0bc-3c08a093b514" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/算法及面试相关/算法/两数相加.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/算法及面试相关/算法/无重复字符的最长子串.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8bf44b96-36e6-4e81-b0bc-3c08a093b514" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -142,12 +138,12 @@
       <option name="presentableId" value="Default" />
       <updated>1564630839781</updated>
       <workItem from="1564630841164" duration="1735000" />
-      <workItem from="1565835303604" duration="2156000" />
+      <workItem from="1565835303604" duration="2240000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3891000" />
+    <option name="totallyTimeSpent" value="3975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -158,7 +154,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24377032" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24377032" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
