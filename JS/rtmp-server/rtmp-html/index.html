@@ -5,8 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.7.3/video-js.min.css" rel="stylesheet">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.7.3/video.min.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/5.5.3/video-js.min.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/5.5.3/video.min.js"></script>
 	<style>
 		.video-wrapper {
 			border: 1px solid red;
@@ -23,11 +23,11 @@
 			preload="auto"
 			poster="//vjs.zencdn.net/v/oceans.png"
 			data-setup='{}'>
-		<source src="rtmp://202.69.69.180:443/webcast/bshdlive-pc" type="rtmp/flv"/>
-		<!--<source src='rtmp://221.222.249.140/springmvc/hello1' type='rtmp/flv'/>-->
-		<!--<source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"/>
-		<source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"/>
-		<source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"/>-->
+		<source src="rtmp://media3.sinovision.net:1935/live/livestream" type="rtmp/flv"/>
+		<source src='rtmp://221.222.249.140/springmvc/hello1' type='rtmp/flv'/>
+		<!--<source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"/>-->
+		<!--<source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"/>-->
+		<!--<source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"/>-->
 		<p class="vjs-no-js">
 			To view this video please enable JavaScript, and consider upgrading to a
 			web browser that
@@ -38,7 +38,6 @@
 	</video>
 </div>
 <script>
-    videojs.options.flash.swf = 'rtmp://202.69.69.180:443/webcast/bshdlive-pc';
     var player = videojs('my-player');
 </script>
 </body>
