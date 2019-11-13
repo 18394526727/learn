@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.7.3/video-js.min.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.7.3/video.min.js"></script>
+	<style>
+		.video-wrapper {
+			border: 1px solid red;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+<div class="video-wrapper">
+	<video id="my-player" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto"
+		   autoplay="autoplay"
+		   poster="https://dev.imuyuan.com/file/fetch/v1/20VPVEvaxlFFOuvrnalDzI" width="500" height="400" data-setup='{}'>
+		<!--src: 规定媒体文件的 URL  type:规定媒体资源的类型-->
+		<source src='rtmp://117.158.68.102:11936/live/openUrl/SK5SFqM' type='rtmp/flv'/>
+		<!--<source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"/>-->
+	</video>
+</div>
+<script>
+    var options = {};
+
+    var player = videojs('my-player', options, function onPlayerReady() {
+        videojs.log('Your player is ready!');
+
+        // In this context, `this` is the player that was created by Video.js.
+        this.play();
+
+        // How about an event listener?
+        this.on('ended', function () {
+            videojs.log('Awww...over so soon?!');
+        });
+    });
+</script>
+</body>
+</html>

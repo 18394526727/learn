@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bf44b96-36e6-4e81-b0bc-3c08a093b514" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/common-function" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/js-data-structure-arithmetic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/regular-expression" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/算法/js中的递归/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/算法/斐波那契亚数列/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/ES5里面的类，静态方法，继承.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/ES6&amp;ES7之抛弃Underscore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/ES6里面的类，静态方法，继承.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/callapplybind.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/index.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/jquery.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/js技巧/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/js技巧/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/ts/function.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/ts/function.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/一个native方法.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/单例.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/基于闭包的循环绑定.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/对象的创建方式.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/对象的继承.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/数组去重.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/数组对比.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/斐波那契压数列.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/网页加载进度条.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/解析URL参数.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,13 +40,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/算法及面试相关/算法/斐波那契亚数列/index.js">
+        <entry file="file://$PROJECT_DIR$/JS/流媒体播放/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -48,12 +69,13 @@
         <option value="$PROJECT_DIR$/算法及面试相关/算法/两数相加.js" />
         <option value="$PROJECT_DIR$/算法及面试相关/算法/无重复字符的最长子串.js" />
         <option value="$PROJECT_DIR$/算法及面试相关/算法/斐波那契亚数列/index.js" />
+        <option value="$PROJECT_DIR$/JS/流媒体播放/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="253" />
-    <option name="width" value="1120" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="161" />
+    <option name="width" value="1211" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -71,20 +93,13 @@
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="算法及面试相关" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="算法及面试相关" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="算法及面试相关" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-              <item name="斐波那契亚数列" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
+              <item name="流媒体播放" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -96,7 +111,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-frontend-ant" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -145,16 +160,18 @@
       <workItem from="1565835303604" duration="2240000" />
       <workItem from="1570439741539" duration="728000" />
       <workItem from="1570442721908" duration="41000" />
+      <workItem from="1573628174669" duration="1426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4744000" />
+    <option name="totallyTimeSpent" value="6170000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="252" y="0" width="1120" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20238096" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2513863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -183,13 +200,11 @@
     <entry file="file://$PROJECT_DIR$/算法及面试相关/算法/斐波那契亚数列.js" />
     <entry file="file://$PROJECT_DIR$/算法及面试相关/算法/两数相加.js" />
     <entry file="file://$PROJECT_DIR$/算法及面试相关/算法/无重复字符的最长子串.js" />
-    <entry file="file://$PROJECT_DIR$/算法及面试相关/算法/斐波那契亚数列/index.js">
+    <entry file="file://$PROJECT_DIR$/算法及面试相关/算法/斐波那契亚数列/index.js" />
+    <entry file="file://$PROJECT_DIR$/JS/流媒体播放/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
         </state>
       </provider>
     </entry>
