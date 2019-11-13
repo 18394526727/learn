@@ -16,28 +16,30 @@
 </head>
 <body>
 <div class="video-wrapper">
-	<video id="my-player" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto"
-		   autoplay="autoplay"
-		   poster="https://dev.imuyuan.com/file/fetch/v1/20VPVEvaxlFFOuvrnalDzI" width="500" height="400" data-setup='{}'>
-		<!--src: 规定媒体文件的 URL  type:规定媒体资源的类型-->
-		<source src='rtmp://117.158.68.102:11936/live/openUrl/SK5SFqM' type='rtmp/flv'/>
-		<!--<source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"/>-->
+	<video
+			id="my-player"
+			class="video-js"
+			controls
+			preload="auto"
+			poster="//vjs.zencdn.net/v/oceans.png"
+			data-setup='{}'>
+		<source src="rtmp://202.69.69.180:443/webcast/bshdlive-pc" type="rtmp/flv"/>
+		<!--<source src='rtmp://221.222.249.140/springmvc/hello1' type='rtmp/flv'/>-->
+		<!--<source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"/>
+		<source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"/>
+		<source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"/>-->
+		<p class="vjs-no-js">
+			To view this video please enable JavaScript, and consider upgrading to a
+			web browser that
+			<a href="https://videojs.com/html5-video-support/" target="_blank">
+				supports HTML5 video
+			</a>
+		</p>
 	</video>
 </div>
 <script>
-    var options = {};
-
-    var player = videojs('my-player', options, function onPlayerReady() {
-        videojs.log('Your player is ready!');
-
-        // In this context, `this` is the player that was created by Video.js.
-        this.play();
-
-        // How about an event listener?
-        this.on('ended', function () {
-            videojs.log('Awww...over so soon?!');
-        });
-    });
+    videojs.options.flash.swf = 'rtmp://202.69.69.180:443/webcast/bshdlive-pc';
+    var player = videojs('my-player');
 </script>
 </body>
 </html>

@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bf44b96-36e6-4e81-b0bc-3c08a093b514" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/common-function" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/js-data-structure-arithmetic" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/regular-expression" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/算法/js中的递归/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/算法/斐波那契亚数列/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/ES5里面的类，静态方法，继承.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/ES6&amp;ES7之抛弃Underscore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/ES6里面的类，静态方法，继承.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/callapplybind.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/index.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/jquery.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/js技巧/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/js技巧/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/ts/function.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/ts/function.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/一个native方法.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/单例.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/基于闭包的循环绑定.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/对象的创建方式.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/对象的继承.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/数组去重.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/数组对比.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/斐波那契压数列.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/网页加载进度条.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它（非书本）/算法及面试相关/面试相关代码（一些原理）/解析URL参数.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/流媒体播放/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/流媒体播放/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/流媒体播放/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+            <state relative-caret-position="372">
+              <caret line="40" column="77" selection-start-line="40" selection-start-column="77" selection-end-line="40" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -160,15 +136,15 @@
       <workItem from="1565835303604" duration="2240000" />
       <workItem from="1570439741539" duration="728000" />
       <workItem from="1570442721908" duration="41000" />
-      <workItem from="1573628174669" duration="1426000" />
+      <workItem from="1573628174669" duration="3290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6170000" />
+    <option name="totallyTimeSpent" value="8034000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="252" y="0" width="1120" height="735" extended-state="0" />
+    <frame x="161" y="0" width="1211" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2513863" />
@@ -183,7 +159,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.17138103" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -203,8 +179,8 @@
     <entry file="file://$PROJECT_DIR$/算法及面试相关/算法/斐波那契亚数列/index.js" />
     <entry file="file://$PROJECT_DIR$/JS/流媒体播放/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+        <state relative-caret-position="372">
+          <caret line="40" column="77" selection-start-line="40" selection-start-column="77" selection-end-line="40" selection-end-column="77" />
         </state>
       </provider>
     </entry>
