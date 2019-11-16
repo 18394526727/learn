@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>rtmp play demo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- functionality -->
+    <script src="jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="swfobject.js"></script>
+</head>
+
+<body style="margin: 0 auto">
+    <!-- SWFObject's dynamic embed method replaces this alternative HTML content with Flash content when enough
+     JavaScript and Flash plug-in support is available. The div is initially hidden so that it doesn't show
+     when JavaScript is disabled.
+-->
+
+    <div id="flashContent" style="position: relative">
+        <p>To view this page ensure that
+            Adobe Flash Player version
+            10.3.0 or greater is
+            installed.</p>
+        <script type="text/javascript">
+            var pageHost = ((document.location.protocol == "https:") ? "https://" : "http://");
+            document.write("<a href='http://www.adobe.com/go/getflashplayer'><img src='" + pageHost + "www.adobe.com/images/shared/download_buttons/get_flash_player.gif' alt='Get Adobe Flash player' /></a>");
+        </script>
+    </div>
+</body>
+<script>
+    $(function () {
+        initialise("rtmp://117.158.68.102:11936/live/openUrl/3YxbQ2Y");
+    })
+    var queryParameters = new Array();
+    var flashVars = "";
+    var tag = "";
+    var url = "";
+
+    function initialise(rtmpUrl) {
+        flashVars += "&src=";
+        flashVars += rtmpUrl;
+        flashVars += "&autoHideControlBar=";
+        flashVars += unescape("true");
+        flashVars += "&streamType=vod";
+        flashVars += "&autoPlay=";
+        flashVars += unescape("true");
+        flashVars += "&verbose=true";
+        var soFlashVars = {
+            src: rtmpUrl,
+            streamType: "vod",
+            autoPlay: "true",
+            controlBarAutoHide: "true",
+            controlBarPosition: "bottom"
+        };
+        tag = "&lt;object width='1080' height='720' id='SampleMediaPlayback' name='SampleMediaPlayback' type='application/x-shockwave-flash' classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' &gt;&lt;param name='movie' value='SampleMediaPlayback.swf' /&gt; &lt;param name='quality' value='high' /&gt; &lt;param name='bgcolor' value='#000000' /&gt; &lt;param name='allowfullscreen' value='true' /&gt; &lt;param name='wmode' value='Opaque' /&gt; &lt;param name='flashvars' value= '" +
+            flashVars + "'/&gt;&lt;embed src='SampleMediaPlayback.swf'wmode='Opaque' width='1080' height='640' id='SampleMediaPlayback' quality='high' bgcolor='#000000' name='SampleMediaPlayback' allowfullscreen='true' pluginspage='http://www.adobe.com/go/getflashplayer'   flashvars='" + flashVars + "' type='application/x-shockwave-flash'&gt; &lt;/embed&gt;&lt;/object&gt;";
+        var swfVersionStr = "10.3.0";
+        var xiSwfUrlStr = "swfs/playerProductInstall.swf";
+        var params = {};
+        params.quality = "high";
+        params.bgcolor = "#000000";
+        params.allowscriptaccess = "sameDomain";
+        params.allowfullscreen = "true";
+        var attributes = {};
+        attributes.id = "SampleMediaPlayback";
+        attributes.name = "SampleMediaPlayback";
+        attributes.align = "middle";
+        swfobject.embedSWF("SampleMediaPlayback.swf", "flashContent", "763", "430", swfVersionStr, xiSwfUrlStr, soFlashVars, params, attributes);
+        swfobject.createCSS("#flashContent", "display:block;text-align:left;");
+    }
+</script>
+
+</html>

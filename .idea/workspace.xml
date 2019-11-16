@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bf44b96-36e6-4e81-b0bc-3c08a093b514" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/rtmp-server/rtmp-html/rubbish.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/rtmp-server/rtmp-html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/rtmp-server/rtmp-html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/rtmp-server/rtmp-html/test.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,13 +19,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/rtmp-server/rtmp-html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+            <state relative-caret-position="228">
+              <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#video#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#embed#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#1667#2653#0" />
+                <element signature="e#2227#3213#0" />
               </folding>
             </state>
           </provider>
@@ -74,56 +69,27 @@
         <option value="$PROJECT_DIR$/JS/rtmp-server/mine.js" />
         <option value="$PROJECT_DIR$/JS/rtmp-server/http.js" />
         <option value="$PROJECT_DIR$/JS/rtmp-server/rtmp-html/test.html" />
+        <option value="$PROJECT_DIR$/JS/rtmp-server/rtmp-html/video.js" />
+        <option value="$PROJECT_DIR$/JS/rtmp-server/rtmp-html/video.css" />
         <option value="$PROJECT_DIR$/JS/rtmp-server/rtmp-html/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="178" />
-    <option name="width" value="1195" />
+    <option name="x" value="148" />
+    <option name="width" value="1225" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-              <item name="rtmp-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-              <item name="rtmp-server" type="462c0819:PsiDirectoryNode" />
-              <item name="rtmp-html" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-frontend-ant" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -180,18 +146,19 @@
       <workItem from="1570442721908" duration="41000" />
       <workItem from="1573628174669" duration="3290000" />
       <workItem from="1573633903070" duration="5639000" />
-      <workItem from="1573775987289" duration="912000" />
+      <workItem from="1573775987289" duration="3006000" />
+      <workItem from="1573801090579" duration="1458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15325000" />
+    <option name="totallyTimeSpent" value="18877000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="178" y="0" width="1195" height="735" extended-state="0" />
+    <frame x="148" y="0" width="1225" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26113537" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26042485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -203,7 +170,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.42262894" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.37271214" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.049916804" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -285,15 +252,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JS/rtmp-server/rtmp-html/video.js" />
+    <entry file="file://$PROJECT_DIR$/JS/rtmp-server/rtmp-html/video.css" />
     <entry file="file://$PROJECT_DIR$/JS/rtmp-server/rtmp-html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        <state relative-caret-position="228">
+          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#video#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#embed#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1667#2653#0" />
+            <element signature="e#2227#3213#0" />
           </folding>
         </state>
       </provider>
