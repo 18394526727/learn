@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bf44b96-36e6-4e81-b0bc-3c08a093b514" name="Default Changelist" comment="" />
+    <list default="true" id="8bf44b96-36e6-4e81-b0bc-3c08a093b514" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_simple_preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_simple_preview.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,11 +15,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/使用说明.txt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_simple_preview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="211">
+              <caret line="169" column="31" selection-start-line="169" selection-start-column="26" selection-end-line="169" selection-end-column="31" />
+              <folding>
+                <element signature="e#1157#1163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_integration_preview.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="768" column="12" selection-start-line="768" selection-start-column="12" selection-end-line="768" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,9 +55,21 @@
       <find>openFlash</find>
       <find>flashChecker</find>
       <find>video-player</find>
+      <find>console.log(</find>
+      <find>1000</find>
+      <find>600</find>
+      <find>JS_CuttingPartWindow</find>
+      <find>console.log</find>
+      <find>console</find>
+      <find>1</find>
+      <find>cameraIndexCode</find>
+      <find>ip</find>
+      <find>预览</find>
+      <find>startPreview</find>
     </findStrings>
     <replaceStrings>
       <replace>5.5.3</replace>
+      <replace>300</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -66,12 +95,13 @@
         <option value="$PROJECT_DIR$/JS/rtmp-server/rtmp-html/video.js" />
         <option value="$PROJECT_DIR$/JS/rtmp-server/rtmp-html/video.css" />
         <option value="$PROJECT_DIR$/JS/rtmp-server/rtmp-html/index.html" />
+        <option value="$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_simple_preview.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="148" />
-    <option name="width" value="1225" />
+    <option name="x" value="387" />
+    <option name="width" value="986" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -97,6 +127,13 @@
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="JS" type="462c0819:PsiDirectoryNode" />
               <item name="海康威视视频WEB插件_Win32 V1.3.1_20191014141832" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
+              <item name="海康威视视频WEB插件_Win32 V1.3.1_20191014141832" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -166,18 +203,18 @@
       <workItem from="1573633903070" duration="5639000" />
       <workItem from="1573775987289" duration="3006000" />
       <workItem from="1573801090579" duration="1458000" />
-      <workItem from="1574061228705" duration="25000" />
+      <workItem from="1574061228705" duration="5256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18902000" />
+    <option name="totallyTimeSpent" value="24133000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="148" y="0" width="1225" height="735" extended-state="0" />
+    <frame x="387" y="0" width="986" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26032013" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3343882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -189,7 +226,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.42262894" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34442595" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.8269551" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -287,6 +324,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_simple_preview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="169" column="31" selection-start-line="169" selection-start-column="26" selection-end-line="169" selection-end-column="31" />
+          <folding>
+            <element signature="e#1157#1163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_integration_preview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="768" column="12" selection-start-line="768" selection-start-column="12" selection-end-line="768" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -113,7 +113,10 @@
                         init();  // 创建播放实例成功后初始化
                     });
                 }, function (err) { // 启动插件服务失败
-                    console.log(err)
+                    console.log({
+                        err,
+                        name: "启动插件服务失败"
+                    })
                 });
             },
             cbConnectError: function () { // 创建WebControl实例失败
@@ -130,9 +133,9 @@
                 }
             },
             cbConnectClose: function (bNormalClose) {
-                // 异常断开：bNormalClose = false
+                // ：bNormalClose = false
                 // JS_Disconnect正常断开：bNormalClose = true
-                console.log("cbConnectClose", {bNormalClose});
+                console.log({bNormalClose, name: "异常断开"});
                 oWebControl = null;
             }
         });
@@ -151,7 +154,7 @@
     }
 
     function showCBInfo(res) {
-        console.log(res)
+        console.log({res, name: "推送消息"})
     }
 
     //初始化
@@ -161,13 +164,13 @@
                 funcName: "init",
                 argument: JSON.stringify({
                     appkey: "28912807",                            //API网关提供的appkey
-                    secret: setEncrypt("DuyWn2H7Qb7jB9rPArth"),                            //API网关提供的secret
+                    secret: setEncrypt("WyiImJKoyYavPoh3DH8l"),                            //API网关提供的secret
                     ip: "117.158.68.102",                                    //API网关IP地址
                     playMode: 0,                        	   //播放模式（决定显示预览还是回放界面）
                     port: 10446,                               //端口
                     snapDir: "E:\\SnapDir",                    //抓图存储路径
                     videoDir: "E:\\VideoDir",                  //紧急录像或录像剪辑存储路径
-                    layout: "1x1",                             //布局
+                    layout: "2x2",                             //布局
                     enableHTTPS: 1,                  //是否启用HTTPS协议
                     encryptedFields: "secret",          //加密字段
                     // showToolbar: showToolbar,                  //是否显示工具栏
@@ -176,7 +179,7 @@
                 })
             }).then(function (oData) {
                 oWebControl.JS_Resize(1000, 600);  // 初始化后resize一次，规避firefox下首次显示窗口后插件窗口未与DIV窗口重合问题
-                console.log({oData})
+                console.log({oData, name: "初始化完成"})
             });
         });
     }
@@ -188,10 +191,13 @@
             argument: JSON.stringify({
                 keyLength: 1024
             })
-        }).then(function (oData) {
-            console.log(oData);
-            if (oData.responseMsg.data) {
-                pubKey = oData.responseMsg.data;
+        }).then(function (data) {
+            console.log({
+                name: "获取公钥",
+                data
+            });
+            if (data.responseMsg.data) {
+                pubKey = data.responseMsg.data;
                 callback()
             }
         })
@@ -226,7 +232,6 @@
         var iWidth = $(window).width();
         var iHeight = $(window).height();
         var oDivRect = $("#playWnd").get(0).getBoundingClientRect();
-
         var iCoverLeft = (oDivRect.left < 0) ? Math.abs(oDivRect.left) : 0;
         var iCoverTop = (oDivRect.top < 0) ? Math.abs(oDivRect.top) : 0;
         var iCoverRight = (oDivRect.right - iWidth > 0) ? Math.round(oDivRect.right - iWidth) : 0;
@@ -254,23 +259,14 @@
 
     //视频预览功能
     $("#startPreview").click(function () {
-        var cameraIndexCode = $("#cameraIndexCode").val();     //获取输入的监控点编号值，必填
-        var streamMode = 0;                                     //主子码流标识：0-主码流，1-子码流
-        var transMode = 1;                                      //传输协议：0-UDP，1-TCP
-        var gpuMode = 0;                                        //是否启用GPU硬解，0-不启用，1-启用
-        var wndId = -1;                                         //播放窗口序号（在2x2以上布局下可指定播放窗口）
-
-        cameraIndexCode = cameraIndexCode.replace(/(^\s*)/g, "");
-        cameraIndexCode = cameraIndexCode.replace(/(\s*$)/g, "");
-
         oWebControl.JS_RequestInterface({
             funcName: "startPreview",
             argument: JSON.stringify({
-                cameraIndexCode: cameraIndexCode,                //监控点编号
-                streamMode: streamMode,                         //主子码流标识
-                transMode: transMode,                           //传输协议
-                gpuMode: gpuMode,                               //是否开启GPU硬解
-                wndId: wndId                                     //可指定播放窗口
+                cameraIndexCode: $("#cameraIndexCode").val(),    //监控点编号
+                streamMode: 0,                         			 //主子码流标识：0-主码流，1-子码流
+                transMode: 1,                           		 //传输协议：0-UDP，1-TCP
+                gpuMode: 0,                               		 //是否启用GPU硬解，0-不启用，1-启用
+                wndId: -1                                        //播放窗口序号（在2x2以上布局下可指定播放窗口）
             })
         })
     });
