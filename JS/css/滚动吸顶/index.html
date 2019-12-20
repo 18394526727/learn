@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.0/jquery.js"></script>
+    <style>
+        .notclick {
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="list">
+        <a href="#" class="aaaa">123</a>
+        <li style="background: yellowgreen;" class="first">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+        <li>17</li>
+    </ul>
+    <!-- <script src="./index.js"></script> -->
+    <script>
+        /**
+            滚动吸顶的原理：
+            1、获取到文档加载完成时目标dom元素的初始位置（initTop），（使用 .offset()）
+            2、监听window对象的滚动行为，当滚动高度超过初始位置的top时，设置目标dom为fixed定位，否则撤回fixed定位（注意宽度有时候需要处理一下）
+        **/
+        $(function () {
+            $("li").click(function () {
+                console.log($(this).text())
+            });
+            let targetDom = $("li.first");
+            let intTop = targetDom.offset().top;
+            $(window).scroll(function () {
+                let curScrollTop = $(window).scrollTop();
+                if(curScrollTop > intTop){
+                    let width = targetDom.width();
+                    targetDom.css({position:"fixed",top:0,width:width + "px"})
+                }else{
+                    targetDom.css({position:"",width:"auto"})
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>

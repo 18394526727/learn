@@ -78,7 +78,7 @@ html, body {
 }
 </style>
 <body>
-    <div id="playWnd" class="playWnd" style="left: 109px; top: 133px;"></div>
+    <div id="playWnd" class="playWnd"></div>
     <div id="operate" class="operate">
         <div class="module">
             <div class="item"><span class="label">合作方Appkey:</span><input id="appkey" type="text" value=""></div>
@@ -283,7 +283,7 @@ html, body {
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<button style="width:;padding:0;margin:0;" id="setOSDText" class="btn">字符串叠加</button>
 			</div>
-			
+
 		</div>
         <fieldset class="cbInfoDiv">
             <legend>返回值信息</legend>
@@ -300,7 +300,7 @@ html, body {
     var oWebControl = null;// 插件对象
     var bIE = (!!window.ActiveXObject || 'ActiveXObject' in window);// 是否为IE浏览器
     var pubKey = '';
-	
+
 	function UpdateValue()
 	{
 		var sel = document.getElementById("isHttps");
@@ -313,9 +313,9 @@ html, body {
 		else
 		{
 			document.getElementById("port").value = 443;
-		}	
+		}
 	}
-	
+
 	function UpdatePlayTypeValue()
 	{
 		var sel = document.getElementById("PlayType");
@@ -330,7 +330,7 @@ html, body {
 			}).then(function (oData) {
 				//分析窗口数
 				//{"errorCode":0,"errorModule":0,"responseMsg":{"code":0,"data":"{\n    \"layout\": \"2x2\",\n    \"wndNum\": 4\n}\n"},"sequence":"93298475-03d0-49c9-bc3a-a94ec696f983","uuid":"{c76078b4-4f19-4198-b68d-83df1d3d71a9}"}
-				
+
 				//"{\n    \"layout\": \"2x2\",\n    \"wndNum\": 4\n}\n"
 				var Data = JSON.stringify(oData.responseMsg.data);
 				//"{    \"layout\": \"2x2\",    \"wndNum\": 4}"
@@ -350,9 +350,9 @@ html, body {
 		{
 			//隐藏标签和窗口选择下拉框
 			document.getElementById("PreviewWndId").style.display="none";//隐藏
-		}						
+		}
 	}
-	
+
 	function createSelectOption(wndNum){
 		var _html="";
 		//先清空之后再添加
@@ -362,7 +362,7 @@ html, body {
 		}
 		$("#playWndId").append(_html);
 	}
-	
+
 	function UpdateSnapTypeValue()
 	{
 		var sel = document.getElementById("SnapType");
@@ -390,9 +390,9 @@ html, body {
 		{
 			//隐藏标签和窗口选择下拉框
 			document.getElementById("SnapShotWndId").style.display="none";//隐藏
-		}						
+		}
 	}
-	
+
 	function createSnapSelectOption(wndNum){
 		var _html="";
 		//先清空之后再添加
@@ -402,7 +402,7 @@ html, body {
 		}
 		$("#SnapWndId").append(_html);
 	}
-	
+
 	function UpdateSetOSDTypeValue()
 	{
 		var sel = document.getElementById("SetOSDType");
@@ -430,9 +430,9 @@ html, body {
 		{
 			//隐藏标签和窗口选择下拉框
 			document.getElementById("SetOSDWndId").style.display="none";//隐藏
-		}						
+		}
 	}
-	
+
 	function createSetOSDSelectOption(wndNum){
 		var _html="";
 		//先清空之后再添加
@@ -444,7 +444,7 @@ html, body {
 	}
 
     // 标签关闭
-    $(window).unload(function () {	
+    $(window).unload(function () {
         if (oWebControl != null){
 				oWebControl.JS_HideWnd();  // 先让窗口隐藏，规避可能的插件窗口滞后于浏览器消失问题
                 oWebControl.JS_Disconnect().then(function(){}, function() {});
@@ -497,7 +497,7 @@ html, body {
             oWebControl.JS_CuttingPartWindow(0, 400 - iCoverBottom, 700, iCoverBottom);
         }
     }
-	
+
     // 初始化插件
 	function initPlugin () {
 		oWebControl = new WebControl({
@@ -506,15 +506,15 @@ html, body {
 			iServicePortEnd: 15909,
 			szClassId:"23BF3B0A-2C56-4D97-9C03-0CB103AA8F11",   // 用于IE10使用ActiveX的clsid
 			cbConnectSuccess: function () {
-				setCallbacks();			
+				setCallbacks();
 				oWebControl.JS_StartService("window", {
 					dllPath: "./VideoPluginConnect.dll"
 				}).then(function () {
 					oWebControl.JS_CreateWnd("playWnd", 700, 400).then(function () {
-						console.log("JS_CreateWnd success");						
+						console.log("JS_Crea0teWnd success");
 					});
 				}, function () {
-				
+
 				});
 			},
 			cbConnectError: function () {
@@ -539,8 +539,8 @@ html, body {
 			}
 		});
 	}
-	
-	initPlugin(); 
+
+	initPlugin();
 
     // 获取公钥
     function getPubKey (callback) {
@@ -591,25 +591,25 @@ html, body {
 			var szShowToolbar = $("#isShowToolbar").val();
 			var szShowSmart = $("#isShowSmart").val();
 			var btIds = $("#btId").val();
-			
+
 			appkey = appkey.replace(/(^\s*)/g, "");
 			appkey = appkey.replace(/(\s*$)/g, "");
-			
+
 			secret = secret.replace(/(^\s*)/g, "");
 			secret = secret.replace(/(\s*$)/g, "");
-			
+
 			ip = ip.replace(/(^\s*)/g, "");
 			ip = ip.replace(/(\s*$)/g, "");
-			
+
 			szPort = szPort.replace(/(^\s*)/g, "");
 			szPort = szPort.replace(/(\s*$)/g, "");
-			
+
 			snapDir = snapDir.replace(/(^\s*)/g, "");
 			snapDir = snapDir.replace(/(\s*$)/g, "");
-			
+
 			videoDir = videoDir.replace(/(^\s*)/g, "");
 			videoDir = videoDir.replace(/(\s*$)/g, "");
-			
+
 			var port = parseInt(szPort);
 			var showSmart = parseInt(szShowSmart);
 			var showToolbar = parseInt(szShowToolbar);
@@ -621,7 +621,7 @@ html, body {
                     if (value !== 'secret') {
                         encryptedFields.push(value);
                     }
-                    
+
                     // secret固定加密，其它根据用户勾选加密
                     if (value == 'ip') {
                         ip = setEncrypt(ip)
@@ -703,11 +703,11 @@ html, body {
             });
         })
     });
-	
+
 	//设置当前布局
 	$("#SetLayout").click(function (){
 	    var layout = $("#setlayout").val();
-		
+
 		oWebControl.JS_RequestInterface({
             funcName: "setLayout",
             argument: JSON.stringify({
@@ -720,7 +720,7 @@ html, body {
 			UpdateSetOSDTypeValue();
         });
 	})
-	
+
 	//获取当前布局
 	$("#GetLayout").click(function (){
 		oWebControl.JS_RequestInterface({
@@ -732,15 +732,15 @@ html, body {
 			UpdateSetOSDTypeValue();
         });
 	})
-	
+
 	//抓图
 	$("#SnapPic").click(function (){
 	    var snapName = $("#snapName").val();
 		var wndId = 0; //选中窗口抓图
-		
+
 		snapName = snapName.replace(/(^\s*)/g, "");
 		snapName = snapName.replace(/(\s*$)/g, "");
-		
+
 		var sel = document.getElementById("SnapType");
 		var selectedId = sel.selectedIndex;
 		var v = sel.options[selectedId].value;
@@ -752,7 +752,7 @@ html, body {
 		{
 			wndId = 0;
 		}
-		
+
 		oWebControl.JS_RequestInterface({
             funcName: "snapShot",
             argument: JSON.stringify({
@@ -771,10 +771,10 @@ html, body {
         var transMode = +$("#transMode").val();
         var gpuMode = +$("#gpuMode").val();
 		var wndId = -1;  //默认为空闲窗口回放
-		
+
 		cameraIndexCode = cameraIndexCode.replace(/(^\s*)/g, "");
 		cameraIndexCode = cameraIndexCode.replace(/(\s*$)/g, "");
-		
+
 		var sel = document.getElementById("PlayType");
 		var selectedId = sel.selectedIndex;
 		var v = sel.options[selectedId].value;
@@ -805,13 +805,13 @@ html, body {
             showCBInfo(JSON.stringify(oData ? oData.responseMsg : ''));
         });
     })
-	
+
 	//字符叠加
 	$("#setOSDText").click(function (){
 		if (!$("#Xsite").val()) {
                 showCBInfo("起点X坐标不能为空！", 'error');
                 return
-        } 
+        }
 		if (!$("#Ysite").val()) {
 			showCBInfo("起点Y坐标不能为空！", 'error');
 			return
@@ -828,7 +828,7 @@ html, body {
 			showCBInfo("字体RGB颜色B分量不能为空！", 'error');
 			return
 		}
-		
+
 	    var text = $("#OSDText").val();
 		var x = +$("#Xsite").val();
 		var y = +$("#Ysite").val();
@@ -837,8 +837,8 @@ html, body {
 		var ColorB = parseInt($("#BColor").val());
 		var Color = 65536 * ColorB + 256 * ColorG + ColorR;
 		var wndId = 0;
-				
-		
+
+
 		var sel = document.getElementById("SetOSDType");
 		var selectedId = sel.selectedIndex;
 		var v = sel.options[selectedId].value;
@@ -850,7 +850,7 @@ html, body {
 		{
 			wndId = 0;
 		}
-		
+
 		oWebControl.JS_RequestInterface({
             funcName: "drawOSD",
             argument: JSON.stringify({
@@ -864,7 +864,7 @@ html, body {
             showCBInfo(JSON.stringify(oData ? oData.responseMsg : ''));
         });
 	})
-    
+
     // 停止预览
     $("#stopAllPreview").click(function () {
         oWebControl.JS_RequestInterface({
@@ -935,7 +935,7 @@ html, body {
 			{
 				obj.value = max;
 			}
-		}	
+		}
 	}
 
 </script>

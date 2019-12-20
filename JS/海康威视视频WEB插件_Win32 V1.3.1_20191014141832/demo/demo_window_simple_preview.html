@@ -14,9 +14,9 @@
 
 	.playWnd {
 		margin: 30px 0 0 400px;
-		width: 1000px;
+		width: 500px;
 		/*播放容器的宽和高设定*/
-		height: 600px;
+		height: 300px;
 		border: 1px solid red;
 	}
 
@@ -109,7 +109,7 @@
                         cbIntegrationCallBack: cbIntegrationCallBack
                     });
 
-                    oWebControl.JS_CreateWnd("playWnd", 1000, 600).then(function () { //JS_CreateWnd创建视频播放窗口，宽高可设定
+                    oWebControl.JS_CreateWnd("playWnd", 500, 300).then(function () { //JS_CreateWnd创建视频播放窗口，宽高可设定
                         init();  // 创建播放实例成功后初始化
                     });
                 }, function (err) { // 启动插件服务失败
@@ -178,7 +178,7 @@
                     // buttonIDs: buttonIDs                       //自定义工具条按钮
                 })
             }).then(function (oData) {
-                oWebControl.JS_Resize(1000, 600);  // 初始化后resize一次，规避firefox下首次显示窗口后插件窗口未与DIV窗口重合问题
+                oWebControl.JS_Resize(500, 300);  // 初始化后resize一次，规避firefox下首次显示窗口后插件窗口未与DIV窗口重合问题
                 console.log({oData, name: "初始化完成"})
             });
         });
@@ -213,7 +213,7 @@
     // 监听resize事件，使插件窗口尺寸跟随DIV窗口变化
     $(window).resize(function () {
         if (oWebControl != null) {
-            oWebControl.JS_Resize(1000, 600);
+            oWebControl.JS_Resize(500, 300);
             setWndCover();
         }
     });
@@ -221,7 +221,7 @@
     // 监听滚动条scroll事件，使插件窗口跟随浏览器滚动而移动
     $(window).scroll(function () {
         if (oWebControl != null) {
-            oWebControl.JS_Resize(1000, 600);
+            oWebControl.JS_Resize(500, 300);
             setWndCover();
         }
     });
@@ -237,23 +237,23 @@
         var iCoverRight = (oDivRect.right - iWidth > 0) ? Math.round(oDivRect.right - iWidth) : 0;
         var iCoverBottom = (oDivRect.bottom - iHeight > 0) ? Math.round(oDivRect.bottom - iHeight) : 0;
 
-        iCoverLeft = (iCoverLeft > 1000) ? 1000 : iCoverLeft;
-        iCoverTop = (iCoverTop > 600) ? 600 : iCoverTop;
-        iCoverRight = (iCoverRight > 1000) ? 1000 : iCoverRight;
-        iCoverBottom = (iCoverBottom > 600) ? 600 : iCoverBottom;
+        iCoverLeft = (iCoverLeft > 500) ? 500 : iCoverLeft;
+        iCoverTop = (iCoverTop > 300) ? 300 : iCoverTop;
+        iCoverRight = (iCoverRight > 500) ? 500 : iCoverRight;
+        iCoverBottom = (iCoverBottom > 300) ? 300 : iCoverBottom;
 
-        oWebControl.JS_RepairPartWindow(0, 0, 1001, 600);    // 多1个像素点防止还原后边界缺失一个像素条
+        oWebControl.JS_RepairPartWindow(0, 0, 1001, 300);    // 多1个像素点防止还原后边界缺失一个像素条
         if (iCoverLeft != 0) {
-            oWebControl.JS_CuttingPartWindow(0, 0, iCoverLeft, 600);
+            oWebControl.JS_CuttingPartWindow(0, 0, iCoverLeft, 300);
         }
         if (iCoverTop != 0) {
             oWebControl.JS_CuttingPartWindow(0, 0, 1001, iCoverTop);    // 多剪掉一个像素条，防止出现剪掉一部分窗口后出现一个像素条
         }
         if (iCoverRight != 0) {
-            oWebControl.JS_CuttingPartWindow(1000 - iCoverRight, 0, iCoverRight, 600);
+            oWebControl.JS_CuttingPartWindow(500 - iCoverRight, 0, iCoverRight, 300);
         }
         if (iCoverBottom != 0) {
-            oWebControl.JS_CuttingPartWindow(0, 600 - iCoverBottom, 1000, iCoverBottom);
+            oWebControl.JS_CuttingPartWindow(0, 300 - iCoverBottom, 500, iCoverBottom);
         }
     }
 

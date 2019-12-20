@@ -1,0 +1,20 @@
+li{
+    list-style: none;
+    transition: all 0.2s;
+}
+.list li{
+    background: #efefef;
+    margin: 2px 0;
+}
+
+.list li:nth-child(3n+1):hover{
+    background: red;
+}
+
+.list li:nth-child(3n+2):hover{
+    background: green;
+}
+
+.list li:nth-child(3n+3):hover{
+    background: blueviolet;
+}
