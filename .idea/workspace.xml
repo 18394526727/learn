@@ -1,350 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bf44b96-36e6-4e81-b0bc-3c08a093b514" name="Default Changelist" comment="">
+    <list default="true" id="62281df4-cb6c-4ff0-a4eb-ad73da11d7fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_integration_preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_integration_preview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_simple_playback.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_simple_playback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_simple_preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_simple_preview.html" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>rtmp</find>
-      <find>6.7.3</find>
-      <find>openFlash</find>
-      <find>flashChecker</find>
-      <find>video-player</find>
-      <find>console.log(</find>
-      <find>1000</find>
-      <find>600</find>
-      <find>JS_CuttingPartWindow</find>
-      <find>console.log</find>
-      <find>console</find>
-      <find>1</find>
-      <find>cameraIndexCode</find>
-      <find>ip</find>
-      <find>position</find>
-      <find>JS_CreateWnd</find>
-      <find>playWnd</find>
-      <find>预览</find>
-      <find>startPreview</find>
-      <find>.playWnd</find>
-      <find>setWndCover</find>
-      <find>init</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>5.5.3</replace>
-      <replace>300</replace>
-      <replace>initPlayBack</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/其他/code/js技巧/index.html" />
-        <option value="$PROJECT_DIR$/其他/code/js技巧/index.js" />
-        <option value="$PROJECT_DIR$/算法及面试相关/算法/斐波那契亚数列.js" />
-        <option value="$PROJECT_DIR$/算法及面试相关/算法/两数相加.js" />
-        <option value="$PROJECT_DIR$/算法及面试相关/算法/无重复字符的最长子串.js" />
-        <option value="$PROJECT_DIR$/算法及面试相关/算法/斐波那契亚数列/index.js" />
-        <option value="$PROJECT_DIR$/JS/流媒体播放/index.html" />
-        <option value="$PROJECT_DIR$/JS/流媒体播放/server/mine.js" />
-        <option value="$PROJECT_DIR$/JS/流媒体播放/server/http.js" />
-        <option value="$PROJECT_DIR$/JS/流媒体播放/http.js" />
-        <option value="$PROJECT_DIR$/JS/rtmp-server/mine.js" />
-        <option value="$PROJECT_DIR$/JS/rtmp-server/http.js" />
-        <option value="$PROJECT_DIR$/JS/rtmp-server/rtmp-html/test.html" />
-        <option value="$PROJECT_DIR$/JS/rtmp-server/rtmp-html/video.js" />
-        <option value="$PROJECT_DIR$/JS/rtmp-server/rtmp-html/video.css" />
-        <option value="$PROJECT_DIR$/JS/rtmp-server/rtmp-html/index.html" />
-        <option value="$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_integration_preview.html" />
-        <option value="$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_simple_preview.html" />
-        <option value="$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_simple_playback.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
-    <option name="width" value="1117" />
-    <option name="height" value="735" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-              <item name="海康威视视频WEB插件_Win32 V1.3.1_20191014141832" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-              <item name="海康威视视频WEB插件_Win32 V1.3.1_20191014141832" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1uSqTX5rJJyH83xX0ueKPJej1zb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="G:/文档/工作/视频WEB插件_Win32 V1.3.1_20191014141832/demo" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub\learn\JS\流媒体播放\server" />
-      <recent name="D:\GitHub\learn\JS\流媒体播放" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Node.js.index.js">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learn/其他/code/js技巧/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="斐波那契亚数列.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/算法及面试相关/算法/斐波那契亚数列.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/算法及面试相关/算法/斐波那契亚数列/index.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.index.js" />
-        <item itemvalue="Node.js.斐波那契亚数列.js" />
-        <item itemvalue="JavaScript Debug.index.html" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8bf44b96-36e6-4e81-b0bc-3c08a093b514" name="Default Changelist" comment="" />
-      <created>1564630839781</created>
+      <changelist id="62281df4-cb6c-4ff0-a4eb-ad73da11d7fa" name="Default Changelist" comment="" />
+      <created>1624669345994</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564630839781</updated>
-      <workItem from="1564630841164" duration="1735000" />
-      <workItem from="1565835303604" duration="2240000" />
-      <workItem from="1570439741539" duration="728000" />
-      <workItem from="1570442721908" duration="41000" />
-      <workItem from="1573628174669" duration="3290000" />
-      <workItem from="1573633903070" duration="5639000" />
-      <workItem from="1573775987289" duration="3006000" />
-      <workItem from="1573801090579" duration="1458000" />
-      <workItem from="1574061228705" duration="8076000" />
-      <workItem from="1574079188234" duration="718000" />
-      <workItem from="1574122291625" duration="3222000" />
-      <workItem from="1574143896670" duration="603000" />
-      <workItem from="1574304198600" duration="403000" />
+      <updated>1624669345994</updated>
+      <workItem from="1624669347203" duration="966000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31899000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="1117" height="735" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.28583404" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22950819" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.42262894" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.18469217" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Nativescript Palette" order="3" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/其他/code/js技巧/index.html" />
-    <entry file="file://$PROJECT_DIR$/其他/code/js技巧/index.js" />
-    <entry file="file://$PROJECT_DIR$/算法及面试相关/算法/斐波那契亚数列.js" />
-    <entry file="file://$PROJECT_DIR$/算法及面试相关/算法/两数相加.js" />
-    <entry file="file://$PROJECT_DIR$/算法及面试相关/算法/无重复字符的最长子串.js" />
-    <entry file="file://$PROJECT_DIR$/算法及面试相关/算法/斐波那契亚数列/index.js" />
-    <entry file="file://$PROJECT_DIR$/JS/流媒体播放/rtmp-html/index.html" />
-    <entry file="file://$PROJECT_DIR$/JS/流媒体播放/http.js" />
-    <entry file="file://$PROJECT_DIR$/JS/流媒体播放/mine.js" />
-    <entry file="file://$PROJECT_DIR$/JS/rtmp-server/http.js" />
-    <entry file="file://$PROJECT_DIR$/JS/rtmp-server/mine.js" />
-    <entry file="file://$PROJECT_DIR$/JS/rtmp-server/rtmp-html/rubbish.html" />
-    <entry file="file://$PROJECT_DIR$/JS/rtmp-server/rtmp-html/video.js" />
-    <entry file="file://$PROJECT_DIR$/JS/rtmp-server/rtmp-html/video.css" />
-    <entry file="file://$PROJECT_DIR$/JS/rtmp-server/rtmp-html/index.html" />
-    <entry file="file://$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/使用说明.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_simple_preview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_integration_preview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="8" selection-start-line="14" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/海康威视视频WEB插件_Win32 V1.3.1_20191014141832/demo/demo_window_simple_playback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="149" column="27" lean-forward="true" selection-start-line="149" selection-start-column="27" selection-end-line="149" selection-end-column="27" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#html#0;n#!!top" />
-            <element signature="e#126#172#0" />
-            <element signature="e#186#335#0" />
-            <element signature="e#349#382#0" />
-            <element signature="e#403#476#0" />
-            <element signature="e#489#691#0" />
-            <element signature="e#710#745#0" />
-            <element signature="e#777#951#0" />
-            <element signature="e#969#1081#0" />
-            <element signature="n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#6649#6760#0" />
-            <element signature="e#6828#7219#0" />
-            <element signature="e#6878#7013#0" />
-            <element signature="e#6955#7002#0" />
-            <element signature="e#7037#7212#0" />
-            <element signature="e#7111#7202#0" />
-            <element signature="e#7266#7389#0" />
-            <element signature="e#11144#11352#0" />
-            <element signature="e#9740#11203#0" />
-            <element signature="e#10499#11196#0" />
-            <element signature="e#10577#11185#0" />
-            <element signature="e#11263#11371#0" />
-            <element signature="e#11313#11364#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <option name="version" value="3" />
   </component>
 </project>
