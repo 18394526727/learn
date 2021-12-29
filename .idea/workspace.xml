@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62281df4-cb6c-4ff0-a4eb-ad73da11d7fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JS/JS/获取颜色梯度/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/tsBasic/1.ts数据类型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/tsBasic/1.ts数据类型.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/tsBasic/2.ts接口.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/tsBasic/3.ts-class类.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/tsBasic/4.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/tsBasic/5.泛型.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TS/tsBasic/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TS/tsBasic/index.html" afterDir="false" />
     </list>
+    <list id="9d3ee502-5fb7-4541-a128-886c5023ea4d" name="aaa Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,21 +31,61 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="62281df4-cb6c-4ff0-a4eb-ad73da11d7fa" name="Default Changelist" comment="" />
+      <changelist id="9d3ee502-5fb7-4541-a128-886c5023ea4d" name="aaa Changelist" comment="" />
       <created>1624669345994</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624669345994</updated>
       <workItem from="1624669347203" duration="966000" />
+      <workItem from="1631973192769" duration="505000" />
+      <workItem from="1631973710225" duration="744000" />
+      <workItem from="1631974526707" duration="5799000" />
+      <workItem from="1632020558887" duration="9197000" />
+      <workItem from="1632269610250" duration="13000" />
+      <workItem from="1633664446615" duration="596000" />
+      <workItem from="1635920745359" duration="63000" />
+      <workItem from="1635926795204" duration="239000" />
+      <workItem from="1635943376512" duration="33000" />
+      <workItem from="1640737400103" duration="65000" />
     </task>
+    <task id="LOCAL-00001" summary="删除一些文件，加入ts文件夹，准备学习ts基础">
+      <created>1631974880412</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631974880412</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/TS/tsBasic/3.ts-class类.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除一些文件，加入ts文件夹，准备学习ts基础" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除一些文件，加入ts文件夹，准备学习ts基础" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
